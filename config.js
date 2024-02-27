@@ -3,24 +3,24 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER || '2347045035241'  // Make SURE its Not Be Empty, Else Bot Stoped And Errors,
+global.owner = process.env.OWNER_NUMBER || '22899869601'  // Make SURE its Not Be Empty, Else Bot Stoped And Errors,
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://ahil1:787191784abhi@ahil1.kzr1tt3.mongodb.net/?retrywrites=true&w=majority"
 global.port= process.env.PORT || 5000
 global.email = 'maxdavid126@gmail.com'
 global.github = 'https://github.com/Xcelsama/STAR-MD'
 global.location = 'Lahore pakistan'
 global.gurl = 'https://instagram.com/alex_david/' // add your username
-global.sudo = process.env.SUDO || "2347045035241"
-global.devs = '2347045035241'
+global.sudo = process.env.SUDO || "22891386435"
+global.devs = '22899869601'
 global.website = 'https://github.com/Xcelsama/STAR-MD' //wa.me/+91000000000000
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/3f3ae4aace2d012c11509.jpg'
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/24d267e4e55be51147840.jpg'
 module.exports = {
-  sessionName: process.env.SESSION_ID || "",      //Put Your Session Id Here
-  author:  process.env.PACK_AUTHER ||  'STAR MD BOT',
-  packname:  process.env.PACK_NAME || 'MADE BY EXCEL ',
+  sessionName: process.env.SESSION_ID || "27_02_2024_SIGMA_MD_V1mqvsfi_MAHER_ZUBAIR",      //Put Your Session Id Here
+  author:  process.env.PACK_AUTHER ||  '𓆩𝕾𝕮𝕻ꕥ𓆪『🪶Ichigo hells🪽』',
+  packname:  process.env.PACK_NAME || 'Starwberry hells🍓🌝',
   
-  botname:   process.env.BOT_NAME === undefined ? "STAR-MD" : process.env.BOT_NAME,
-  ownername: process.env.OWNER_NAME === undefined ? 'alexdavid' : process.env.OWNER_NAME,  
+  botname:   process.env.BOT_NAME === undefined ? "𓆩𝕾𝕮𝕻ꕥ𓆪『🪶BΩT🪽』" : process.env.BOT_NAME,
+  ownername: process.env.OWNER_NAME === undefined ? '𓆩☀️𝕾𝕮𝕻🌙𓆪『🪶❦𝐇𝐞𝐥𝐥𝐬•𝐈𝐜𝐡𝐢𝐠𝐨🪽』' : process.env.OWNER_NAME,  
   auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS,
   autoreaction:  process.env.AUTO_REACTION  === undefined ? false : process.env.AUTO_REACTION ,
   antibadword :  process.env.ANTI_BAD_WORD === undefined ? 'nbwoed' : process.env.ANTI_BAD_WORD,
